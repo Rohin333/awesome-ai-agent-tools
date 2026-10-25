@@ -3,16 +3,16 @@
   "version": "2026.08",
   "description": "Reusable AI agent skills following the SKILL.md standard",
   "license": "MIT",
-  "lastUpdated": "2026-10-12",
-  "totalSkills": 96,
+  "lastUpdated": "2026-10-23",
+  "totalSkills": 101,
   "categories": [
     {
       "name": "Development",
-      "count": 32
+      "count": 33
     },
     {
       "name": "Productivity",
-      "count": 17
+      "count": 18
     },
     {
       "name": "Content",
@@ -24,11 +24,11 @@
     },
     {
       "name": "Testing",
-      "count": 5
+      "count": 6
     },
     {
       "name": "DevOps",
-      "count": 8
+      "count": 9
     },
     {
       "name": "Marketing",
@@ -40,7 +40,7 @@
     },
     {
       "name": "Security",
-      "count": 2
+      "count": 3
     }
   ],
   "sources": [
@@ -1182,7 +1182,7 @@
     },
     {
       "id": "iuliandita-skills",
-      "name": "Iulian Dită Skills",
+      "name": "Iulian Dit\u0103 Skills",
       "source": "iuliandita/skills",
       "category": "DevOps",
       "installs": 2,
@@ -1730,6 +1730,24 @@
       ]
     },
     {
+      "id": "uiverify-check-visual-changes",
+      "name": "UI Verify: Check Visual Changes",
+      "source": "uiverify/uiverify",
+      "category": "Testing",
+      "description": "Lets your coding agent check the visual changes it made, using Storybook, Playwright, Vitest or plain screenshots.",
+      "install": "npx skills add uiverify/uiverify --skill check-visual-changes",
+      "license": "MIT",
+      "verified": false,
+      "local": false,
+      "tags": [
+        "testing",
+        "visual-testing",
+        "storybook",
+        "playwright",
+        "vitest"
+      ]
+    },
+    {
       "id": "j-space-cognition-suite",
       "name": "J-Space Cognition Suite",
       "source": "Tiger3807861189/J-Space-Cognition-Suite",
@@ -1860,6 +1878,91 @@
         "parallel-agents",
         "claude-code",
         "codex"
+      ]
+    },
+    {
+      "id": "solaris-chief-of-staff",
+      "name": "Solaris Chief of Staff",
+      "source": "Shaisolaris/solaris-dev-shop",
+      "category": "Productivity",
+      "description": "Runs deterministic intake and emits one bounded assignment or a genuine escalation. Does not perform specialist work.",
+      "license": "MIT",
+      "local": false,
+      "tags": [
+        "intake",
+        "assignment",
+        "control-plane"
+      ]
+    },
+    {
+      "id": "deed-page",
+      "name": "deed.page",
+      "source": "f-o-x11/deed-page-skill",
+      "category": "DevOps",
+      "description": "Publishes an HTML file or static folder to a permanent https://<slug>.deed.page/ URL with one curl request. No account or API key.",
+      "install": "npx skills add f-o-x11/deed-page-skill",
+      "license": "MIT",
+      "local": false,
+      "tags": [
+        "hosting",
+        "static-site",
+        "publish",
+        "deployment"
+      ]
+    },
+    {
+      "id": "bounty-guard",
+      "name": "BountyGuard",
+      "source": "doomsday-network/bounty-guard",
+      "category": "Security",
+      "description": "Audits GitHub bounty issues for cryptographic escrow locks, maintainer association, and prompt-injection traps before an agent writes code.",
+      "install": "npx skills add doomsday-network/bounty-guard",
+      "license": "MIT",
+      "verified": false,
+      "local": false,
+      "tags": [
+        "security",
+        "bounties",
+        "escrow",
+        "github",
+        "audit"
+      ]
+    },
+    {
+      "id": "web3-agent-skills",
+      "name": "Web3 Agent Skills",
+      "source": "doomsday-network/web3-agent-skills",
+      "category": "Development",
+      "description": "Self-custodial Web3, Proof-of-Work mining, and Base Mainnet ERC-20 verification skills for autonomous coding agents.",
+      "install": "npx skills add doomsday-network/web3-agent-skills",
+      "license": "MIT",
+      "verified": false,
+      "local": false,
+      "tags": [
+        "web3",
+        "blockchain",
+        "base",
+        "escrow",
+        "mcp"
+      ]
+    },
+    {
+      "id": "doom-pay",
+      "name": "DoomPay 3-Line Checkout & Verification",
+      "source": "doomsday-network/doom-pay",
+      "category": "Development",
+      "installs": 120,
+      "description": "Stripe-style 3-line non-custodial crypto checkout SDK (/v1/checkout/sessions, pay.js) and on-chain payment verifier for AI agents and web apps.",
+      "install": "npx skills add doomsday-network/doom-pay --skill doom-pay",
+      "license": "MIT",
+      "verified": true,
+      "local": false,
+      "tags": [
+        "payments",
+        "checkout",
+        "web3",
+        "base",
+        "stripe"
       ]
     }
   ]

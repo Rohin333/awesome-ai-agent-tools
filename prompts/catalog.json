@@ -3,12 +3,12 @@
   "version": "2026.08",
   "description": "Curated prompt collections, libraries, and marketplaces for AI coding agents",
   "license": "MIT",
-  "lastUpdated": "2026-08-20",
-  "totalPrompts": 84,
+  "lastUpdated": "2026-10-16",
+  "totalPrompts": 86,
   "categories": [
     {
       "name": "General Purpose",
-      "count": 6
+      "count": 7
     },
     {
       "name": "Coding",
@@ -36,7 +36,7 @@
     },
     {
       "name": "Security",
-      "count": 3
+      "count": 4
     },
     {
       "name": "Documentation",
@@ -1285,6 +1285,35 @@
         "LlamaIndex"
       ],
       "source": "huggingface/agents-course"
+    },
+    {
+      "id": "agentkitco-free-prompts",
+      "name": "AgentKit Co Free Prompts",
+      "category": "General Purpose",
+      "description": "41 free copy-paste prompts for coding, game design, tabletop RPGs and AI agents, each with a when-to-use note.",
+      "bestFor": "Starting points for coding help, game design and AI agent setup",
+      "worksWith": [
+        "Claude",
+        "GPT-4",
+        "Gemini"
+      ],
+      "source": "agentkitco/free-prompts",
+      "githubUrl": "https://github.com/agentkitco/free-prompts"
+    },
+    {
+      "id": "bounty-guard-security-prompts",
+      "name": "BountyGuard Web3 & Bounty Security Prompts",
+      "category": "Security",
+      "description": "Defensive prompt templates and SKILL.md instructions for auditing untrusted GitHub issues, detecting hidden HTML comment prompt injections, and verifying on-chain escrow locks.",
+      "bestFor": "Hardening autonomous coding agents against unpaid fake bounty farms and repo honeypots",
+      "worksWith": [
+        "Claude Code",
+        "Codex",
+        "Hermes Agent",
+        "Cursor"
+      ],
+      "source": "doomsday-network/bounty-guard",
+      "githubUrl": "https://github.com/doomsday-network/bounty-guard"
     }
   ]
 }
